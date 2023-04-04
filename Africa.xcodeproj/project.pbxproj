@@ -29,6 +29,8 @@
 		F56DAABC29D8B44A0035E0B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DAABB29D8B44A0035E0B5 /* ContentView.swift */; };
 		F56DAABE29D8B44B0035E0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DAABD29D8B44B0035E0B5 /* Assets.xcassets */; };
 		F56DAAC129D8B44B0035E0B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DAAC029D8B44B0035E0B5 /* Preview Assets.xcassets */; };
+		F5FCD93329DC545700FBBD48 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCD93229DC545700FBBD48 /* LocationModel.swift */; };
+		F5FCD93529DC58E600FBBD48 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCD93429DC58E600FBBD48 /* MapAnnotationView.swift */; };
 		F5FE656529DB0ACF008B1638 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE656429DB0ACF008B1638 /* CoverImageView.swift */; };
 		F5FE656829DB0CDB008B1638 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE656729DB0CDB008B1638 /* CoverImageModel.swift */; };
 		F5FE656B29DB0DC3008B1638 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE656A29DB0DC3008B1638 /* CodableBundleExtension.swift */; };
@@ -71,6 +73,8 @@
 		F56DAABB29D8B44A0035E0B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F56DAABD29D8B44B0035E0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56DAAC029D8B44B0035E0B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5FCD93229DC545700FBBD48 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		F5FCD93429DC58E600FBBD48 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		F5FE656429DB0ACF008B1638 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		F5FE656729DB0CDB008B1638 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		F5FE656A29DB0DC3008B1638 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 				F5FE657A29DB39F2008B1638 /* ExternalWeblinkView.swift */,
 				F5FE657E29DB7359008B1638 /* VideoListItemView.swift */,
 				F5FE658029DB7987008B1638 /* VideoPlayerView.swift */,
+				F5FCD93429DC58E600FBBD48 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				F5FE656729DB0CDB008B1638 /* CoverImageModel.swift */,
 				F5FE656E29DB1FF0008B1638 /* AnimalModel.swift */,
 				F5FE657C29DB7240008B1638 /* VideoModel.swift */,
+				F5FCD93229DC545700FBBD48 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,9 +327,11 @@
 				F5FE658429DB7A5D008B1638 /* VideoPlayerHelper.swift in Sources */,
 				F56DAABA29D8B44A0035E0B5 /* AfricaApp.swift in Sources */,
 				F5FE657B29DB39F2008B1638 /* ExternalWeblinkView.swift in Sources */,
+				F5FCD93529DC58E600FBBD48 /* MapAnnotationView.swift in Sources */,
 				F532117D29D8C002003489E3 /* VideoListView.swift in Sources */,
 				F5FE657D29DB7240008B1638 /* VideoModel.swift in Sources */,
 				F532118129D8CE13003489E3 /* GalleryView.swift in Sources */,
+				F5FCD93329DC545700FBBD48 /* LocationModel.swift in Sources */,
 				F5FE657529DB304F008B1638 /* InsetGalleryView.swift in Sources */,
 				F5FE657F29DB7359008B1638 /* VideoListItemView.swift in Sources */,
 				F5FE656B29DB0DC3008B1638 /* CodableBundleExtension.swift in Sources */,
